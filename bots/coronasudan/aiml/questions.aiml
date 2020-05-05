@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+<!-- What CORONA VIRUS is? -->
+
+	<category>
+	    <pattern># corona virus</pattern>
+	    <template>
+	        Coronaviruses are a large family of viruses which may cause illness in animals or humans.
+	        In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+	        The most recently discovered coronavirus causes coronavirus disease COVID-19.
+	    </template>
+    </category>
+    
+    <category>
+        <pattern># corona</pattern>
+        <template>
+            <srai># corona virus</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># COVID 19</pattern>
+        <template>
+            COVID-19 is the infectious disease caused by the most recently discovered coronavirus.
+            This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># COVID </pattern>
+        <template>
+            <srai># COVID 19</srai>
+        </template>
+    </category>
+    
+    
+<!-- CORONA VIRUS Symptoms -->
+
+    <category>
+        <pattern># symptoms</pattern>
+        <template>
+            The most common symptoms of COVID-19 are fever, dry cough, and tiredness.
+            Some patients may have aches and pains, nasal congestion, sore throat or diarrhea. 
+            These symptoms are usually mild and begin gradually. Some people become infected but only have very mild symptoms.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># I HAVE CORONA</pattern>
+        <template>
+            If you have minor symptoms, such as a slight cough or a mild fever, there is generally no need to seek medical care.
+            Stay at home, self-isolate and monitor your symptoms. Follow national guidance on self-isolation.
+            However, if you live in an area with malaria or dengue fever it is important that you do not ignore symptoms of fever.
+            Seek medical help.  When you attend the health facility wear a mask if possible, keep at least 1 metre distance from other people and do not touch surfaces with your hands. If it is a child who is sick help the child stick to this advice.
+            Seek immediate medical care if you have difficulty breathing or pain/pressure in the chest. If possible, call your health care provider in advance, so he/she can direct you to the right health facility.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># SEEK MEDICAL CARE #</pattern>
+        <template>
+            <srai># I HAVE CORONA</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># MEDICAL CARE #</pattern>
+        <template>
+            <srai># I HAVE CORONA</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOW LONG #</pattern>
+        <template>
+            The time between exposure to COVID-19 and the moment when symptoms start is commonly around five to six days but can range from 1 – 14 days. 
+        </template>
+    </category>
+    
+<!-- CORONA VIRUS High resk -->
+
+    <category>
+        <pattern># HIGH RISK #</pattern>
+        <template>
+            Based on what we know now, those at high-risk for severe illness from COVID-19 are:
+                People aged 65 years and older
+                People who live in a nursing home or long-term care facility
+                People with chronic lung disease or moderate to severe asthma
+                People who have serious heart conditions
+                People who are immunocompromised
+                People who are overweight
+                People with diabetes
+                People with chronic kidney disease undergoing dialysis
+                People with liver disease
+        </template>
+    </category>
+
+<!-- CORONA VIRUS Spread -->
+
+    <category>
+        <pattern># VIRUS SPREAD</pattern>
+        <template>
+            The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs or sneezes.
+           </template>
+    </category>
+    
+    
+    <category>
+        <pattern># SPREAD</pattern>
+        <template>
+            <srai># VIRUS SPREAD</srai>
+           </template>
+    </category>
+    
+        
+    <category>
+        <pattern># SPREADS</pattern>
+        <template>
+            <srai># VIRUS SPREAD</srai>
+           </template>
+    </category>
+    
+    
+    <category>
+        <pattern># FOOD</pattern>
+        <template>
+            Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food – additional investigation is needed.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># CHILDREN</pattern>
+        <template>
+            Research indicates that children and adolescents are just as likely to become infected as any other age group and can spread the disease.
+            Evidence to date suggests that children and young adults are less likely to get severe disease, but severe cases can still happen in these age groups.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* CHILDREN # CORONA</pattern>
+        <template>
+            <sray># CHILDREN</sray>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># protect #</pattern>
+        <template>
+            You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:
+                Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.
+                Maintain at least 1 metre (3 feet) distance between yourself and others.
+                Avoid touching eyes, nose and mouth.
+                Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.
+                Stay home and self-isolate even with minor symptoms such as cough, headache, mild fever, until you recover.
+        </template>
+    </category>
+    
+    <category>
+        <pattern># PREVENT #</pattern>
+        <template>
+            <srai># PROTECT #</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern># SURFACE #</pattern>
+        <template>
+           Studies have shown that the COVID-19 virus can survive for up to 72 hours on plastic and stainless steel, less than 4 hours on copper and less than 24 hours on cardboard.
+        </template>
+    </category>
+
+<category>
+    <pattern># COMMUNITY SPREAD #</pattern>
+    <template>
+        Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected.
+    </template>
+</category>
+
+<category>
+    <pattern># NEGATIVE #</pattern>
+    <template>
+        Using the CDC-developed viral test, a negative result means that the virus that causes COVID-19 was not found in the person’s sample. In the early stages of infection, it is possible the virus will not be detected.
+    </template>
+</category>
+
+<category>
+    <pattern># CLEANING # </pattern>
+    <template>
+        Cleaning with soap and water removes germs, dirt, and impurities from surfaces. It lowers the risk of spreading infection. 
+    </template>
+</category>
+
+<category>
+    <pattern># CLEAN #</pattern>
+    <template>
+        <srai># CLEANING #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># DISINFECTING #</pattern>
+    <template>
+        Disinfecting kills germs on surfaces. By killing germs on a surface after cleaning, it can further lower the risk of spreading infection.
+    </template>
+</category>
+
+<category>
+    <pattern># DISINFECT #</pattern>
+    <template>
+        <srai># DISINFECTING #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># DISINFECTION #</pattern>
+    <template>
+        <srai># DISINFECTING #</srai>
+    </template>
+</category>
+
+<!-- Drug & Treatment -->
+
+<category>
+    <pattern># DRUG #</pattern>
+    <template>
+        Not yet. To date, there is no vaccine and no specific antiviral medicines against COVID-19.
+        However, .people, particularly those with serious illness, may need to be hospitalized so that they can receive life-saving treatment for complications.. Most patients recover thanks to such care. 
+    </template>
+</category>
+
+<category>
+    <pattern># VACCINE #</pattern>
+    <template>
+        <srai># DRUG #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># TREATMENT #</pattern>
+    <template>
+        <srai># DRUG #</srai>
+    </template>
+</category>
+
+<!-- Isolation, Quarantine & Distance -->
+
+<category>
+    <pattern># SELF ISOLATION #</pattern>
+    <template>
+        Self-isolation is when a person who is experiencing fever, cough or other COVID-19 symptoms stays at home and does not go to work, school or public places. 
+    </template>
+</category>
+
+<category>
+    <pattern># ISOLATION #</pattern>
+    <template>
+        <srai># SELF ISOLATION #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># ISOLATE #</pattern>
+    <template>
+        <srai># SELF ISOLATION #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># SELF-ISOLATION #</pattern>
+    <template>
+        <srai># SELF ISOLATION #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># QUARANTINE #</pattern>
+    <template>
+        Quarantine means restricting activities or separating people who are not ill themselves but may have been exposed to COVID-19.
+        The goal is to prevent spread of the disease at the time when people just develop symptoms.
+    </template>
+</category>
+
+<category>
+    <pattern># PHYSICAL DISTANCE #</pattern>
+    <template>
+        Physical distancing means being physically apart. WHO recommends keeping at least 1-metre (3 feet) distance from others.
+        This is a general measure that everyone should take even if they are well with no known exposure to COVID-19. 
+    </template>
+</category>
+
+<category>
+    <pattern># DISTANCE #</pattern>
+    <template>
+        <srai># PHYSICAL DISTANCE #</srai>
+    </template>
+</category>
+
+<!-- CORONA VIRUS & ANIMALS -->
+
+
+<category>
+    <pattern># ANIMAL #</pattern>
+    <template>
+        At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19.
+        Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low. 
+    </template>
+</category>
+
+<category>
+    <pattern># ANIMALS #</pattern>
+    <template>
+        <srai># ANIMAL #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># PET #</pattern>
+    <template>
+        <srai># ANIMAL #</srai>
+    </template>
+</category>
+
+<category>
+    <pattern># PETS #</pattern>
+    <template>
+        <srai># ANIMAL #</srai>
+    </template>
+</category>
+
+</aiml>
+
